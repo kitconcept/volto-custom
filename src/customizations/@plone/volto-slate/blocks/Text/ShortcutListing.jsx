@@ -1,4 +1,4 @@
-// Removed completely since in DLR we do have schema in slate
+// Remove it completely
 
 const ShortcutListing = (props) => {
   return <></>;
