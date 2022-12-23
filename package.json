@@ -1,0 +1,20 @@
+{
+  "name": "@kitconcept/volto-custom",
+  "version": "0.1.0",
+  "description": "Add-on with the latest kitconcept customizations",
+  "main": "src/index.js",
+  "license": "MIT",
+  "keywords": [
+    "volto-addon",
+    "volto",
+    "plone",
+    "react"
+  ],
+  "scripts": {
+    "i18n": "rm -rf build/messages && NODE_ENV=production i18n --addon"
+  },
+  "devDependencies": {
+    "@plone/scripts": "2.2.2",
+    "release-it": "15.5.1"
+  }
+}
